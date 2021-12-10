@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CRUD project</title>
+    <link rel="stylesheet" href="{% static 'css/bootstarp.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h2 class="text-center alert alert-danger">Function Based View Mo delForm CRUD Project</h2>
+{% block content %} {% endblock content %}
+
+    </div>
+
+ <script src="{% static 'js/jquery.js' %}" charset="utf-8"></script>
+ <script src="{% static 'js/popper.js' %}" charset="utf-8"></script>
+ <script src="{% static 'js/bootstarp.js' %}" charset="utf-8"></script>
+
+  </body>
+</html>
